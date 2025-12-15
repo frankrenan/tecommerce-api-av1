@@ -160,3 +160,8 @@ class LogSimples(models.Model):
        
     def __str__(self):
         return f"[{self.categoria}] {self.timestamp.strftime('%Y-%m-%d %H:%M')} - {self.mensagem[:50]}..."
+    
+
+class ModelTeste:
+    def __init__(self):
+        pass
